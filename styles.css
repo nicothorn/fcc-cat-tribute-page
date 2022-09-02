@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  background-color: #1c1c1c;
+  color: #dedede;
+}
+
+.italic {
+  font-style: italic;
+}
+
+a, a:visited {
+  color: hsl(176,94%,75%);
+}
+
+a:hover, a:active {
+  color: hsl(318,100%,72%);
+  text-decoration: none;
+}
+
+header {
+  background-color: #0a0a0a;
+  color: #cfcfcf;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+header h1, header p {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #a1a1a1;
+}
+
+header h1 {
+  margin-top: 5px;
+  font-weight: 1000;
+  letter-spacing: 20px;
+  text-indent: 20px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.nav {
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-left, .nav-right {
+  width: 150px;
+  font-size: 1.5em;
+}
+
+.nav-left {
+  background: url(./images/caticon.svg) no-repeat;
+  height: 90px;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.nav-title p {
+  font-size: 0.9em;
+  margin-top: -20px;
+  font-weight: 600;
+}
+
+.nav-title p:last-of-type {
+  font-size: 0.8em;
+  font-style: italic;
+  margin-top: -15px;
+}
+
+main {
+  margin: 130px auto 20px auto;
+  width: 90%;
+  max-width: 1000px;
+}
+
+#image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #000;
+  display: block;
+}
+
+figure {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+figure, #tribute-link {
+  text-align: center;
+  background-color: #333333;
+  border: 5px solid #000;
+}
+
+figcaption {
+  font-size: 0.9em;
+  padding-top: 5px;
+  font-style: italic;
+}
+
+#tribute-info {
+  width: 90%;
+  max-width: 950px;
+  margin: 40px auto 0 auto;
+  border-top: 5px solid #333333;
+  padding-top: 15px;
+}
+
+#tribute-end {
+  width: 100%;
+  margin: 40px auto;
+  padding: 20px 5px 25px;
+  border-width: 3px;
+  font-size: 1.5em;
+}
+
+#tribute-end p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+}
+
+ul li {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #272727;
+  border-left: 5px solid #000;
+}

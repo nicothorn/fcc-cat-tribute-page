@@ -1,0 +1,1 @@
+A tribute to the most magnificent creatures on Earth, coded for freeCodeCamp's responsive web design certification project.
